@@ -13,8 +13,9 @@ def list_dwarves(array)
   
   array.each_with_index do |element, index|
     hash[element] = index
+    position = index += 1 
     
-    puts "#{index}. #{element}"
+    puts "#{position}. #{element}"
   end 
   
 end
